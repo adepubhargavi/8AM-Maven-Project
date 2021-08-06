@@ -10,6 +10,6 @@ RUN yum install wget -y
 RUN yum install vim -y
 RUN java -version
 WORKDIR /opt/Tomcat/webapps
-COPY /root/.jenkins/workspace/War-Build/target/Cloud-DevOps_1-1.0-SNAPSHOT.war /opt/Tomcat/webapps/
+COPY Cloud-DevOps_1-1.0-SNAPSHOT.war /opt/Tomcat/webapps/
 EXPOSE 8080
 CMD ["/opt/Tomcat/bin/startup.sh", "run"]
