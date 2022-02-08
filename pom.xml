@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jdevs</groupId>
-  <artifactId>Cloud-DevOps_1</artifactId>
+  <artifactId>Bhargavi_Project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
@@ -33,12 +33,12 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://192.168.121.149:8081/repository/Project1_Release/</url>
+            <url>http://192.168.233.130:8081/repository/Project1_Release/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://192.168.121.149:8081/repository/Project1_Snap/</url>
+            <url>http://192.168.233.130:8081/repository/Project1_Snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
